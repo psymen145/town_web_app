@@ -11,8 +11,8 @@
 		<link rel="stylesheet" href="styles.css">
 
 		<!-- fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-default">
@@ -25,55 +25,57 @@
 			        	<span class="icon-bar"></span>
 			        	<span class="icon-bar"></span>
 			    	</button>
-			    	<a class="navbar-brand" href="#">TownHouz</a>
+			    	<a class="navbar-brand" href="#">
+			    		<h id="logo">TOWNHOUZ</h>
+			    	</a>
 		    	</div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			    	<ul class="nav navbar-nav navbar-right">
-			        	<li><a href="#">About Us</a></li>
+			        	<li><a href="#">Share</a></li>
+			        	<li><a href="#">About</a></li>
 			        	<li class="dropdown">
-			          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-			          	<ul class="dropdown-menu">
-			            	<li><a href="#">Action</a></li>
-			            	<li><a href="#">Another action</a></li>
-			            	<li><a href="#">Something else here</a></li>
-			            	<li role="separator" class="divider"></li>
-			            	<li><a href="#">Separated link</a></li>
-			          	</ul>
+			          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+				          	<ul class="dropdown-menu">
+				            	<li><a href="#">Buy</a></li>
+				            	<li><a href="#">Sell</a></li>
+				            	<li><a href="#">Find an agent</a></li>
+				          	</ul>
 			        	</li>
+			        	<li><a href="#">Sign In</a></li>
 			    	</ul>
 			 	</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
 
-		<div class="wrapper container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<form>
-					 	<div class="form-group">
-						    <label for="exampleInputEmail1">Email address</label>
-						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-						</div>
-						<div class="form-group">
-							<label for="exampleInputPassword1">Password</label>
-						 	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-						</div>
-						<div class="checkbox">
-							<label>
-						    	<input type="checkbox"> Check me out
-							</label>
-						</div>
-						<button type="submit" class="btn btn-default">Submit</button>
-					</form>
+		<div class="jumbotron">
+			<div class="wrapper container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<form>
+						 	<div class="form-group">
+							    <label for="SearchLocation" id="mainsearch">Location</label>
+							    <input type="email" class="form-control" id="SearchLocation" placeholder="Neighborhood/Borough/Address">
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="wrapper container">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<p class="text-center about-us">TownHouz, currently a small company striving to make an impact in the real estate and design space. Share creative ideas with fellow like-minded individuals. Curate spaces and get immediate feedback. Integer pretium consequat laoreet. Curabitur in libero pretium, pellentesque lacus commodo, gravida felis. Praesent ullamcorper aliquam odio, quis consectetur nisl varius ut. Integer vitae ultrices odio. Vivamus quis quam nec odio aliquet volutpat. Donec ut eros at est feugiat ultrices pulvinar quis orci. Maecenas sodales dignissim urna nec lobortis. Sed venenatis nibh vitae maximus maximus. Curabitur ultricies magna quam. Pellentesque porta tortor non lacus rutrum rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus in dui sit amet est pharetra luctus. Praesent porta, tortor eu pulvinar dictum, arcu orci aliquam eros, ut dignissim ligula orci vitae nibh. In vel augue accumsan, condimentum nulla quis, elementum quam.<p>
+				<div class="col-sm-8">
+					
+				</div>
+
+				<div class="col-sm-3 col-sm-offset-1">
+					<h id="right-header">Top posts</h>
+					<img class="img-responsive" src="images/main-find.jpg" id="description-image">
+					<p id="right-neighborhood">Downtown Brooklyn</p>
+					<p id="right-author">psymenn</p>
 				</div>
 			</div>
 		</div>
