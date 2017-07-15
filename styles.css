@@ -125,9 +125,20 @@ body{
 	max-height: 100%;
 	position: relative;
 	top: 10px;
+	border: 1px solid;
 }
 
 #right-header{
 	font-size: 2em;
 	padding: 5px;
+}
+
+#right-neighborhood{
+	position: relative;
+	top: 15px;
+}
+
+#right-author{
+	position: relative;
+	top: 10px;
 }
